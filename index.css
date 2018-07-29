@@ -1,0 +1,286 @@
+#container *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#container{
+	width: 1200px;
+	margin: 0 auto;
+
+}
+body{
+	background-color: gray;
+}
+.head{
+	width: 1200px;
+	height: 300px;
+	background-image: linear-gradient(black,gray,black);
+}
+.logo{
+	width: 200px;
+	float: left;
+	height: 180px;
+	position: relative;
+	top: 50px;
+	margin-right: 50px;
+	border-radius: 50%;
+
+}
+.main{
+	font-size: 50px;
+	color: white;
+	position: relative;
+	top: 60px;
+	text-align: center;
+
+}
+.sub{
+	font-size: 30px;
+	color: white;
+	position: relative;
+	top: 70px;
+	text-align: center;
+
+
+}
+.logreg{
+	float:right;
+	float: right;
+	width: 200px;
+	height: 100px;
+	
+	
+
+}
+.regp{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+
+}
+.log,.reg{
+	color: white;
+	text-decoration: none;
+	width: 50px;
+	display: block;
+	float: left;
+	text-align: center;
+	position: relative;
+	top: 20px;
+
+}
+.log{
+	left: 40px;
+}
+.reg{
+	left: 50px;
+}
+.log:hover,.reg:hover{
+	background-color: black;
+}
+nav ul{
+	list-style-type: none;
+}
+nav li{
+	float: left;
+	background-color: gray;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border:1px solid white;
+
+
+}
+nav a{
+	text-decoration: none;
+	color:white;
+}
+#class{
+	height: 0px;
+	overflow: auto;
+	width:300px;
+	position: absolute;
+	z-index: 100px;
+}
+.class:hover>#class{
+	height: 3000px;
+}
+#dir{
+	height: 0px;
+	overflow: auto;
+	width:300px;
+	position: absolute;
+	z-index: 100px;
+}
+.dir:hover>#dir{
+	height: 3000px;
+}
+#sup{
+	height: 0px;
+	overflow: auto;
+	width:300px;
+	position: absolute;
+	z-index: 100px;
+}
+.sup:hover>#sup{
+	height: 3000px;
+}
+#pro{
+	height: 0px;
+	overflow: auto;
+	width:300px;
+	position: absolute;
+	z-index: 100px;
+}
+.pro:hover>#pro{
+	height: 3000px;
+}
+.main_image{
+	width: 1200px;
+
+}
+.image1,.image2,.image3,.image4,.image5,.image6,
+.image7,.image8,.image9,.image10,.image11,.image12,
+.image13,.image14,.image15,.image16,.image17,.image18,
+.image19,.image20,.image21,.image22,.image23,.image24,
+.image25,.image26,.image27,.image28,.image29,.image30,
+.image31,.image32,.image33,.image34,.image35,.image36,
+.image37,.image38,.image39,.image40,.image41,.image42,
+.image43,.image44,.image45,.image46,.image47,.image48,
+.image49,.image50,.image51,.image52,.image53,.image54,
+.image55,.image56,.image57,.image58,.image59,.image60,
+.image61,.image62,.image63,.image64,.image65,.image66,
+.image67,.image68,.image69,.image70,.image71,.image72,
+.image73,.image74,.image75,.image76,.image77,.image78,
+.image79,.image80,.image81,.image82,.image83,.image84,
+.image85,.image86,.image87,.image88,.image89,.image90,
+.image91,.image92,.image93,.image94,.image95,.image96,
+.image97,.image98,.image99,.image100,.image101,.image102,
+.image103,.image104,.image105,.image106,.image107,.image108,
+.image109,.image110,.image111,.image112,.image113,.image114,
+.image115,.image116,.image117,.image118,.image119,.image120,
+.image121,.image122,.image123,.image124,.image125,.image126,
+.image127,.image128,.image129,.image130,.image131,.image132,
+.image133,.image134,.image135,.image136,.image137,.image138,
+.image139,.image140,.image141,.image142,.image143,.image144,
+.image145,.image146,.image147,.image148,.image149,.image150
+
+{
+	width: 350px;
+	height: 350px;
+	left: 2px;
+	position: relative;
+	top: 1px;
+	transition: transform 1s linear;
+
+}
+#images{
+	width: 350px;
+	height: 350px;
+	overflow: hidden;
+
+}
+#image1,#image2,#image3{
+	float: left;
+	width: 350px;
+	height: 400px;
+	border:1px solid black;
+}
+#image4,#image5,#image6{
+
+	float: left;
+	width: 350px;
+	height: 400px;
+	border:1px solid black;
+	
+}
+#image7,#image8,#image9,#image10,#image11,#image12,#image13,#image14,
+#image15,#image16,#image17,#image18,#image19,#image20,#image21,#image22,
+#image23,#image24,#image25,#image26,#image27,#image28,#image29,#image30,
+#image31,#image32,#image33,#image34,#image35,#image36,#image37,#image38,
+#image39,#image40,#image41,#image42,#image43,#image44,#image45,#image46,
+#image47,#image48,#image49,#image50,#image51,#image52,#image53,#image54,
+#image55,#image56,#image57,#image58,#image59,#image60,#image61,#image62,
+#image63,#image64,#image65,#image66,#image67,#image68,#image69,#image70,
+#image71,#image72,#image73,#image74,#image75,#image76,#image77,#image78,
+#image79,#image80,#image81,#image82,#image83,#image84,#image85,#image86,
+#image87,#image88,#image89,#image90,#image91,#image92,#image93,#image94,
+#image95,#image96,#image97,#image98,#image99,#image100,#image101,#image102,
+#image103,#image104,#image105,#image106,#image107,#image108,#image109,#image110,
+#image111,#image112,#image113,#image114,#image115,#image116,#image117,#image118,
+#image119,#image120,#image121,#image122,#image123,#image124,#image125,#image126,
+#image127,#image128,#image129,#image130,#image131,#image132,
+#image133,#image134,#image135,#image136,#image137,#image138,
+#image139,#image140,#image141,#image142,#image143,#image144,
+#image145,#image146,#image147,#image148,#image149,#image150
+{
+
+	float: left;
+	width: 350px;
+	height: 400px;
+	border:1px solid black;
+	
+}
+#image2,#image3{
+	margin-left: 75px;
+}
+#image5,#image6{
+	margin-left: 75px;
+}
+#image8,#image9,#image11,#image12,#image14,
+#image15,#image17,#image18,#image20,#image21,
+#image23,#image24,#image26,#image27,#image29,#image30,
+#image32,#image33,#image35,#image36,#image38,
+#image39,#image41,#image42,#image44,#image45,
+#image47,#image48,#image50,#image51,#image53,#image54,
+#image56,#image57,#image59,#image60,#image62,
+#image63,#image65,#image66,#image68,#image69,#image71,
+#image72,#image74,#image75,#image77,#image78,
+#image80,#image81,#image83,#image84,#image86,
+#image87,#image89,#image90,#image92,#image93,#image95,
+#image96,#image98,#image99,#image101,#image102,
+#image104,#image105,#image107,#image108,#image110,
+#image111,#image113,#image114,#image116,#image117,#image119,
+#image120,#image122,#image123,#image125,#image126,
+#image128,#image129,#image131,#image132,#image134,#image135,
+#image137,#image138,#image140,#image141,#image143,
+#image144,#image146,#image147,#image149,#image150
+
+
+{
+	margin-left: 75px;
+}
+
+.image1:hover,.image2:hover,.image3:hover,.image4:hover,.image5:hover,.image6:hover,
+.image7:hover,.image8:hover,.image9:hover,.image10:hover,.image11:hover,.image12:hover,
+.image13:hover,.image14:hover,.image15:hover,.image16:hover,.image17:hover,.image18:hover,
+.image19:hover,.image20:hover,.image21:hover,.image22:hover,.image23:hover,.image24:hover,
+.image25:hover,.image26:hover,.image27:hover,.image28:hover,.image29:hover,.image30:hover,
+.image31:hover,.image32:hover,.image33:hover,.image34:hover,.image35:hover,.image36:hover,
+.image37:hover,.image38:hover,.image39:hover,.image40:hover,.image41:hover,.image42:hover,
+.image43:hover,.image44:hover,.image45:hover,.image46:hover,.image47:hover,.image48:hover,
+.image49:hover,.image50:hover,.image51:hover,.image52:hover,.image53:hover,.image54:hover,
+.image55:hover,.image56:hover,.image57:hover,.image58:hover,.image59:hover,.image60:hover,
+.image61:hover,.image62:hover,.image63:hover,.image64:hover,.image65:hover,.image66:hover,
+.image67:hover,.image68:hover,.image69:hover,.image70:hover,.image71:hover,.image72:hover,
+.image73:hover,.image74:hover,.image75:hover,.image76:hover,.image77:hover,.image78:hover,
+.image79:hover,.image80:hover,.image81:hover,.image82:hover,.image83:hover,.image84:hover,
+.image85:hover,.image86:hover,.image87:hover,.image88:hover,.image89:hover,.image90:hover,
+.image91:hover,.image92:hover,.image93:hover,.image94:hover,.image95:hover,.image96:hover,
+.image97:hover,.image98:hover,.image99:hover,.image100:hover,.image101:hover,.image102:hover,
+.image103:hover,.image104:hover,.image105:hover,.image106:hover,.image107:hover,.image108:hover,
+.image109:hover,.image110:hover,.image111:hover,.image112:hover,.image113:hover,.image114:hover,
+.image115:hover,.image116:hover,.image117:hover,.image118:hover,.image119:hover,.image120:hover,
+.image121:hover,.image122:hover,.image123:hover,.image124:hover,.image125:hover,.image126:hover,
+.image127:hover,.image128:hover,.image129:hover,.image130:hover,.image131:hover,.image132:hover,
+.image133:hover,.image134:hover,.image135:hover,.image136:hover,.image137:hover,.image138:hover,
+.image139:hover,.image140:hover,.image141:hover,.image142:hover,.image143:hover,.image144:hover
+,.image145:hover,.image146:hover,.image147:hover,.image148:hover,.image149:hover,.image150:hover
+
+
+
+
+{
+	transform:scale(1.5);
+}
